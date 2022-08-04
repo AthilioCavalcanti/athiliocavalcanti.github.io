@@ -1,9 +1,17 @@
-.h-main .container {
+.h-main {
   height: 6rem;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+}
+
+.h-main--highlighted {
+  background-color: #000000bf;
+}
+
+.h-main .container {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

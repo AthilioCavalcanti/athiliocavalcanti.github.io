@@ -1,7 +1,27 @@
-.h-main {
+.h-main .container {
+  height: 6rem;
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  color: var(--white-color);
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: var(--white-color);
 }
 
 #hero {
@@ -30,9 +50,10 @@
 }
 
 .info__name {
-  font-size: 4rem;
+  font-size: 3rem;
+  margin-top: 2.5rem;
 }
 
 .info__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }

@@ -21,4 +21,18 @@
   max-width: 20rem;
   border: 5px solid var(--white-color);
   border-radius: 50%;
+  box-shadow: 0px 0px 64px #000000bf;
+}
+
+.info {
+  color: var(--white-color);
+  text-align: center;
+}
+
+.info__name {
+  font-size: 4rem;
+}
+
+.info__title {
+  font-size: 2rem;
 }

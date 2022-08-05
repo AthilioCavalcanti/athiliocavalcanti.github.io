@@ -116,6 +116,23 @@ section .container > header {
   background-color: var(--green-color);
 }
 
+.about__me {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.about__me h3 {
+  font-size: 1.75rem;
+}
+
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
 #contact {
   height: 42rem;
 }

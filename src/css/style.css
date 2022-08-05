@@ -30,6 +30,7 @@
 .navbar__link {
   text-decoration: none;
   color: var(--white-color);
+  font-size: 1.2rem;
 }
 
 #hero {
@@ -78,9 +79,35 @@ h2 {
   padding-top: 6rem;
 }
 
+section .container > header {
+  margin-bottom: 3rem;
+}
+
 #portfolio {
   height: 50rem;
   
+}
+
+#portfolio .container {
+  height: 100%;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.project__item {
+  width: 22rem;
+  flex: 1;
+  height: 13rem;
+  background-color: #bbb;
+  border-radius: 15px;
+  line-height: 13rem;
+  text-align: center;
 }
 
 #about {
@@ -89,7 +116,7 @@ h2 {
 }
 
 #contact {
-  height: 38rem;
+  height: 42rem;
 }
 
 #contact .container {

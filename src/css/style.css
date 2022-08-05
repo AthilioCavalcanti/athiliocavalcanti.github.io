@@ -33,7 +33,7 @@
 }
 
 #hero {
-  height: 55.25rem;
+  height: 45rem;
   background: linear-gradient(75.96deg, var(--blue-color) 0%, var(--green-color) 100%);
   padding-top: 10.25rem;
 }
@@ -64,4 +64,50 @@
 
 .info__title {
   font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+#portfolio,
+#about,
+#contact {
+  padding-top: 6rem;
+}
+
+#portfolio {
+  height: 50rem;
+  
+}
+
+#about {
+  height: 40rem;
+  background-color: var(--green-color);
+}
+
+#contact {
+  height: 30rem;
+}
+
+footer {
+  height: 8rem;
+  background-color: var(--blue-color);
+}
+
+footer .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
+footer .social {
+  display: flex;
+  gap: 1rem;
 }

@@ -126,6 +126,27 @@ section .container > header {
   font-size: 1.75rem;
 }
 
+.summary {
+  width: 60%;
+}
+
+.summary p {
+  margin-bottom: .75rem;
+  line-height: 150%;
+}
+
+.summary p:last-child {
+  margin-bottom: 0;
+}
+
+.skills__list {
+  margin-top: 1rem;
+}
+
+.skill__item img{
+  width: 4rem;
+}
+
 .skills__list {
   display: flex;
   flex-wrap: wrap;

@@ -56,6 +56,9 @@
         <li><div class="project__item">EM BREVE</div></li>
         <li><div class="project__item">EM BREVE</div></li>
       </ul>
+      <div class="repositorie">
+        <a href="https://github.com/AthilioCavalcanti" target="_blank" rel="external">Visite meu repositório</a>
+      </div>
     </div>
   </section>
   <section id="about">
@@ -113,12 +116,33 @@
       </header>
       <form>
         <div>
+          <label for="name">Nome:</label>
+          <input 
+            type="text" 
+            name="name" 
+            id="name"
+            placeholder="Digite seu nome aqui"
+            required
+          >
+        </div>
+        <div>
+          <label for="number">Número:</label>
+          <input 
+            type="tel" 
+            name="number" 
+            id="number"
+            placeholder="(XX) XXXXX-XXXX"
+            required
+          >
+        </div>
+        <div>
           <label for="email">E-mail:</label>
           <input 
             type="email" 
             name="email" 
             id="email"
-            placeholder="Digite seu email aqui!"
+            placeholder="exemplo@mail.com"
+            required
           >
         </div>
         <div>
@@ -129,8 +153,10 @@
             cols="20" 
             rows="10" 
             placeholder="Digite aqui sua mensagem"
+            required
           ></textarea>
         </div>
+        <button disabled>Enviar</button>
       </form>
     </div>
   </section>

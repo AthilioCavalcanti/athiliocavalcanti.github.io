@@ -84,7 +84,7 @@ section .container > header {
 }
 
 #portfolio {
-  height: 50rem;
+  height: 55rem;
   
 }
 
@@ -108,6 +108,17 @@ section .container > header {
   border-radius: 15px;
   line-height: 13rem;
   text-align: center;
+}
+
+.repositorie {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.repositorie a {
+  font-size: 1.5rem;
+  color: var(--blue-color);
+  text-decoration: underline;
 }
 
 #about {
@@ -154,7 +165,7 @@ section .container > header {
 }
 
 #contact {
-  height: 42rem;
+  height: 56rem;
 }
 
 #contact .container {
@@ -170,6 +181,13 @@ section .container > header {
 #contact form label {
   font-size: 1.2rem;
   margin-bottom: .5rem;
+}
+
+#contact form button {
+  background-color: var(--green-color);
+  padding: .75rem 2rem;
+  border-radius: 15px;
+  font-size: 1.2rem;
 }
 
 #contact form input,

@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-.logo {
+.logo a {
   font-size: 1.6rem;
   color: var(--white-color);
 }
@@ -28,7 +28,6 @@
 }
 
 .navbar__link {
-  text-decoration: none;
   color: var(--white-color);
   font-size: 1.2rem;
 }

@@ -113,51 +113,26 @@
     <div class="container">
       <header>
         <h2>Contato</h2>
+        <p>Alguma dúvida? Não deixe de entrar em contato!</p>
       </header>
-      <form>
-        <div>
-          <label for="name">Nome:</label>
-          <input 
-            type="text" 
-            name="name" 
-            id="name"
-            placeholder="Digite seu nome aqui"
-            required
+      <div>
+        <div class="email">
+          <a href="mailto:athiliocavalcanti@gmail.com">
+            <img src="./src/images/email-icon.svg" alt="Ícone de email">
+            <span>athiliocavalcanti@gmail.com</span>
+          </a>
+        </div>
+        <div class="whatsapp">
+          <a 
+            href="https://api.whatsapp.com/send?phone=5581992473682" 
+            target="_blank" 
+            rel="external"
           >
+            <img src="./src/images/whatsapp-icon.svg" alt="Ícone de whatsapp">
+            <span>(81) 99247 - 3682</span>
+          </a>
         </div>
-        <div>
-          <label for="number">Número:</label>
-          <input 
-            type="tel" 
-            name="number" 
-            id="number"
-            placeholder="(XX) XXXXX-XXXX"
-            required
-          >
-        </div>
-        <div>
-          <label for="email">E-mail:</label>
-          <input 
-            type="email" 
-            name="email" 
-            id="email"
-            placeholder="exemplo@mail.com"
-            required
-          >
-        </div>
-        <div>
-          <label for="mensage">Mensagem:</label>
-          <textarea 
-            name="mensage" 
-            id="mensage" 
-            cols="20" 
-            rows="10" 
-            placeholder="Digite aqui sua mensagem"
-            required
-          ></textarea>
-        </div>
-        <button disabled>Enviar</button>
-      </form>
+      </div>
     </div>
   </section>
   <footer>

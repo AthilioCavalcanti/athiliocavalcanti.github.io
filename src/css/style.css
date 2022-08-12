@@ -263,3 +263,8 @@ footer .container {
   display: flex;
   gap: 1rem;
 }
+
+.social__icon:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 .25rem var(--white-color));
+}

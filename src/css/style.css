@@ -150,18 +150,45 @@ section .container > header {
   margin-bottom: 0;
 }
 
-.skills__list {
-  margin-top: 1rem;
+.skills__carousel {
+  height: 18rem;
+  display: flex;
 }
 
-.skill__item img{
-  width: 4rem;
+.skills__carousel .arrow {
+  height: 100%;
+  font-size: 8rem;
+  line-height: 16rem;
+}
+
+.skills__carousel .arrow span {
+  cursor: pointer;
+}
+
+.carousel {
+  margin: 0 2rem;
+  width: 18rem;
+  overflow: hidden;
 }
 
 .skills__list {
   display: flex;
-  flex-wrap: wrap;
-  gap: .5rem;
+  transition: transform .6s ease-in-out;
+  transform: translateX(0);
+}
+
+.skill__item {
+  min-width: 14rem;
+  height: 18rem; 
+  margin: 0 2rem;
+}
+
+.skill__item img {
+  width: 14rem;
+  height: 14rem;
+  margin-top: 2rem;
+
+  filter: drop-shadow(10px 10px 12px gray);
 }
 
 #contact {

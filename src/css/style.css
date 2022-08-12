@@ -188,7 +188,7 @@ section .container > header {
   height: 14rem;
   margin-top: 2rem;
 
-  filter: drop-shadow(10px 10px 12px gray);
+  filter: drop-shadow(.75rem .75rem .25rem #40798C);
 }
 
 #contact {

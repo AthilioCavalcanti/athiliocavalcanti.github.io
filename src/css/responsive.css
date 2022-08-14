@@ -1,0 +1,39 @@
+@media (max-width: 1150px) {
+  #portfolio {
+    height: 70rem;
+  }
+
+  .projects li {
+    width: min-content;
+    margin: 0 auto;
+  }
+  
+}
+
+@media (max-width: 800px) {
+  #portfolio {
+    height: 115rem;
+  }
+
+  .projects {
+    flex-direction: column;
+  }
+
+  .about__me {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .h-main .container {
+    justify-content: center;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .project__item {
+    width: 19rem;
+  }
+}

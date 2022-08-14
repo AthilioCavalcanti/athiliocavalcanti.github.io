@@ -68,6 +68,34 @@
   #about {
     height: 62rem;
   }
+
+  #contact {
+    height: 30rem;
+  }
+
+  #contact header p,
+  .email,
+  .whatsapp {
+    font-size: 1.3rem;
+  }
+
+  #contact .container > div {
+    padding-top: 0;
+  }
+
+  footer {
+    height: 10rem;
+  }
+
+  footer .container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  footer h3 {
+    text-align: center;
+  }
 }
 
 /* Ajustar medidas do carrossel para funcionar corretamente em telas de largura inferiro a 500px*/

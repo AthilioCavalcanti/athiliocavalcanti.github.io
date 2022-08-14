@@ -10,6 +10,18 @@
   
 }
 
+@media (max-width: 1000px) {
+  #about {
+    height: 45rem;
+  }
+}
+
+@media (max-width: 900px) {
+  #about {
+    height: 50rem;
+  }
+}
+
 @media (max-width: 800px) {
   #portfolio {
     height: 115rem;
@@ -19,8 +31,24 @@
     flex-direction: column;
   }
 
+  #about {
+    height: 58rem;
+  }
+
   .about__me {
     flex-direction: column;
+  }
+
+  .summary {
+    width: 100%;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .skills__carousel {
+    justify-content: center;
   }
 }
 
@@ -35,5 +63,17 @@
 
   .project__item {
     width: 19rem;
+  }
+
+  #about {
+    height: 62rem;
+  }
+}
+
+/* Ajustar medidas do carrossel para funcionar corretamente em telas de largura inferiro a 500px*/
+
+@media(max-width: 500px) {
+  .skills__carousel {
+    display: none;
   }
 }

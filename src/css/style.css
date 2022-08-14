@@ -33,6 +33,10 @@
   font-size: 1.2rem;
 }
 
+.navbar__link:hover {
+  text-decoration: underline;
+}
+
 #hero {
   height: 45rem;
   background: linear-gradient(75.96deg, var(--blue-color) 0%, var(--green-color) 100%);

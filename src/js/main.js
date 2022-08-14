@@ -33,7 +33,7 @@ arrowRight.addEventListener('click', () => { goingRight() });
 
 setInterval(() => {
   indexX++;
-  if(indexX >= skills.length - 1) {
+  if(indexX > skills.length - 1) {
     indexX = 0;
   }
   skillsList.style.transform = `translateX(${-indexX * 18}rem)`;

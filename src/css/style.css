@@ -268,3 +268,11 @@ footer .container {
   transform: scale(1.2);
   filter: drop-shadow(0 0 .25rem var(--white-color));
 }
+
+div a:focus,
+li a:focus,
+.arrow span:focus {
+  outline: 1px solid var(--orange-color);
+  border-radius: 15px;
+  padding: .5rem;
+}
